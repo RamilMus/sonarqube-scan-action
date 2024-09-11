@@ -6,7 +6,7 @@ branding:
   color: green
 runs:
   using: docker
-  image: Dockerfile
+  image: Dockerfile@sha256:486456120
   entrypoint: "/entrypoint.sh"
   post-entrypoint: "/cleanup.sh"
 inputs:
